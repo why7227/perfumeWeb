@@ -1,0 +1,93 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+/*header*/
+li {
+	list-style-type: none;
+}
+
+#header a {
+	text-decoration: none;
+}
+
+#header {
+	background-color: white;
+}
+
+/*헤더 위 공백*/
+#blank_top {
+	height: 50px;
+}
+
+/*로고*/
+#logo h1 {
+	font-family: 'Bad Script', cursive;
+	text-align: right;
+	font-weight: bold;
+	font-size: 45px;
+	color: black;
+}
+
+/*헤더 네비 메뉴3가지*/
+#header_nav>ul {
+	margin-left: 25px;
+}
+
+#header_nav>ul li a {
+	font-family: 'THE오키도키';
+	color: black;
+	font-size: 23px;
+}
+
+#perfume_menu {
+	text-align: center;
+}
+
+#perfume_menu>li a {
+	font-size: 13px;
+	text-decoration: none;
+}
+
+#header_icon {
+	margin-left: -20px;
+	padding: 0px;
+}
+
+#header_icon img {
+	margin-top: 15px;
+}
+
+#header_icon ul li {
+	float: left;
+}
+
+#header_icon>ul li a {
+	color: black;
+	text-align: center;
+}
+
+.icon1 {
+	margin-left: 20px;
+	text-align: center;
+}
+
+.icon1 h5 {
+	font-family: "THE오키도키";
+	font-size: 18px;
+	padding-left: 9px;
+}
+
+.icon .hide {
+	display: none;
+	float: none;
+}
+
+#nav1 .nav_hide {
+	display: none;;
+}
+
+#man_c:hover {
+	color: #b0e0e6;
+}
+
+#woman_c:hover {
+	color: #ffc0cb;
+}

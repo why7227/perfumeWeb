@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/*제목*/
+h2 {
+	margin-top: 150px;
+	text-align: center;
+	font-size: 40px;
+}
+
+p {
+	text-align: center;
+	font-size: 13px;
+	color: gray;
+}
+
+table {
+	margin: 40px 0px;
+	font-size: 17px;
+}
+
+.form-control {
+	margin: 3px;
+}
+
+/*input button box조정*/
+.click_btn {
+	margin: 30px 0px;
+	margin-right: -5px;
+	height: 40px;
+	width: 120px;
+}
+
+/* 아이디 중복확인(사용가능) */
+.id_ok {
+	color: green;
+	display: none;
+	font-size: 12px;
+}
+
+/* 아이디 중복확인(사용불가) */
+.id_no {
+	color: red;
+	display: none;
+	font-size: 12px;
+}
+
+.address_input {
+	margin: 0px;
+}

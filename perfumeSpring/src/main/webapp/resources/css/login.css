@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/*위아래 공백*/
+#wrap {
+	margin: 150px 0px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 30px;
+}
+
+p {
+	text-align: center;
+	font-size: 13px;
+	color: gray;
+}
+
+/*input 아이디,비밀번호 box 설정 */
+.login_input {
+	margin-left: 10%;
+	width: 80%;
+	height: 50px;
+	background-color: white;
+	border: 1px solid gray;
+}
+
+/*input box 설정*/
+.btn {
+	margin-left: 10%;
+	width: 80%;
+	height: 50px;
+	background-color: #efefef;
+}
+
+.login_message {
+	margin-top: 14px;
+	margin-left: 60px;
+	color: black;
+	font-size: 18px;
+	text-align: left;
+}
+
+/* 비밀번호,아이디 찾기 inputBox */
+.idFindInput {
+	margin: 5px 40px 0px;
+	width: 80%;
+}
+
+/* 비밀번호,아이디 찾기 button */
+.click_btn {
+	margin: 5px 40px 0px;
+	width: 50%;
+}
+
+/* 아이디,비밀번호 찾기 문구 */
+#print {
+	color: #808080;
+	text-align: center;
+}

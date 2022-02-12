@@ -1,0 +1,29 @@
+#footer hr {
+	margin-top: 40px;
+	margin-bottom: 0px;
+	line-height: 40px;
+	border: solid 1px gray;
+	width: 100%;
+}
+
+#footer ul {
+	padding-top: 30px;
+}
+
+.col {
+	text-align: center;
+}
+
+.col-6 {
+	text-align: center;
+}
+
+.footer_area {
+	list-style: none;
+}
+
+.footer_area li {
+	font-size: 13px;
+	color: black;
+	text-align: center;
+}

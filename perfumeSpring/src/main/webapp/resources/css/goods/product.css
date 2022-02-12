@@ -1,0 +1,103 @@
+.col-3 {
+	border-collapse: collapse;
+}
+
+/* 이미지  관련 */
+#man_page a>img, #woman_page a>img {
+	width: 200px;
+	height: 200px;
+	overflow: hidden;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.head {
+	display: flex;
+	justify-content: center;
+}
+
+#namePrice {
+	font-family: 'THE오키도키';
+	font-size: 15px;
+}
+
+/* 제목과 금액 칸*/
+#title_n_p {
+	height: 70px;
+	border-top: 1px solid #b9d8f1;
+	font-size: 5px;
+}
+
+/* 가격*/
+.col>a>#money {
+	font-size: 15px;
+	text-align: center;
+}
+
+/* 제품명*/
+.col>a>#name {
+	height: 60px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: 12px;
+	border-bottom: 1px solid;
+}
+
+/* 1칸1칸칸*/
+#man_page .row, #woman_page .row {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.head {
+	margin-bottom: 15px;
+	transform: scale(1);
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transition: all 0.3s ease-in-out;
+	transform: scale(1); /* 부드러운 모션을 위해 추가*/
+}
+
+.head:hover {
+	transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-o-transform: scale(1.2);
+}
+
+#img {
+	width: 250px;
+	height: 300px;
+	overflow: hidden;
+}
+
+/* a태그 밑줄 삭제하기 */
+#man_page a, #woman_page a {
+	text-decoration: none !important;
+	color: black;
+}
+
+/*버튼*/
+.page-link {
+	color: #6c757d;
+}
+
+.page-link:hover {
+	color: #6c757d;
+	background-color: #e9ecef;
+	border-color: #dee2e6;
+}
+
+.page-item.active .page-link {
+	color: white;
+	background-color: #6c757d;
+	border-color: #6c757d;
+}
+
+.page-item.disabled .page-link {
+	color: #e5e5e5;
+}

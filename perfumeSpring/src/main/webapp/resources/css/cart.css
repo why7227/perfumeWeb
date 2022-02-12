@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+th, td {
+	text-align: center;
+}
+
+.btn {
+	font-size: 17px;
+}
+
+#cart {
+	margin-bottom: 150px;
+	font-size: 18px;
+	font-family: 'THE오키도키';
+	letter-spacing: 1px;
+}
+
+#cart_title {
+	text-align: center;
+	font-family: 'Bad Script';
+}
+
+.cart_hr {
+	border: 1px solid gray;
+}
+
+#cart_count h2 {
+	font-size: 20px;
+}
+
+#order {
+	display: inline-block;
+	margin: 16px;
+	background-color: #efefef;
+}
+
+.order_product {
+	display: inline-block;
+	text-align: center;
+	margin: 20px 50px;
+}
+
+.img_size {
+	width: 100px;
+	height: 100px;
+}
